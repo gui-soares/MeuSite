@@ -7,20 +7,44 @@
     margin: auto;
 }
 
-h1{
+header{
+    background-color: #d6ebfe;
     max-width: 570px;
-    
     margin: auto;
-    
     padding: 13px;
-    
     border-bottom: 4px solid #1b8fb4;
     
+    /* display flex pra ajustar os botoes */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{ 
     font-family: Helvetica, Arial, sans-serif;
     font-size: medium;
     text-align: center;
-    
-    background-color: #d6ebfe;
+}
+
+button{
+    height: 35px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-left{
+    background-color: yellow;
+}
+
+.button-right{
+    background-color: blue;
+    color: white;
 }
 
 .tabela{
